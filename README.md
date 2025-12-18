@@ -1,12 +1,12 @@
-#Mini Food Delivery Browser
+# Mini Food Delivery Browser
 
-##ฟีเจอร์ (Features)
+## ฟีเจอร์ (Features)
 - **Restaurant List:** แสดงรายการร้านอาหารพร้อมประเภท และเวลาเปิด-ปิด
 - **Search Bar:** ค้นหาร้านอาหารได้
 - **Restaurant Detail:** แสดงประเภทและเวลาเปิด-ปิด และรายการเมนูอาหารพร้อมราคา
 - **State Management:** รองรับสถานะ Loading, Success และ Error
 
-##โครงสร้างแอป
+## โครงสร้างแอป
 โดยใช้ **MVVM (Model-View-ViewModel)** ประกอบด้วยกันดังนี้:
 
 ### Models
