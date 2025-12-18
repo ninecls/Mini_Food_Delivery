@@ -1,6 +1,6 @@
 # Mini Food Delivery Browser
 
-## ฟีเจอร์ (Features)
+## ฟีเจอร์ 
 - **Restaurant List:** แสดงรายการร้านอาหารพร้อมประเภท และเวลาเปิด-ปิด
 - **Search Bar:** ค้นหาร้านอาหารได้
 - **Restaurant Detail:** แสดงประเภทและเวลาเปิด-ปิด และรายการเมนูอาหารพร้อมราคา
@@ -41,14 +41,14 @@
 - **Case Insensitive Search:** ช่องค้นหาสามารถค้นหาได้ทั้งตัวอักษรพิมพ์เล็กและพิมพ์ใหญ่โดยผลลัพธ์ต้องได้เหมือนกัน (เช่น "pizza" และ "PIZZA")
 - **Data Consistency:** ความถูกต้องของข้อมูลหลังจากการโหลดจากไฟล์ Local JSON
 
-### วิธีการรันการทดสอบ (How to run tests):
+### วิธีการรันการทดสอบ :
 เปิด Terminal:
 ```bash
 flutter test 
 ```
 ##
 
-## วิธีการติดตั้ง (Setup)
+## วิธีการติดตั้ง
 Clone Repository:
    ```bash
    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
