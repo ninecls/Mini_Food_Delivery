@@ -9,7 +9,7 @@ void main() {
       viewModel = RestaurantViewModel();
     });
 
-    test('ฟังก์ชัน searchRestaurants กรองข้อมูลได้ถูกต้อง', () async {
+    test('searchRestaurants กรองข้อมูลได้ถูกต้อง', () async {
       // รอให้การโหลดข้อมูล Local JSON เสร็จก่อน
       await Future.delayed(Duration(milliseconds: 100));
 

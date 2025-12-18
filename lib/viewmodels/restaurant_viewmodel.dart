@@ -33,7 +33,7 @@ class RestaurantViewModel extends ChangeNotifier {
       _state = ViewState.success;
     } catch (e) {
       _errorMessage = e.toString();
-      _state = ViewState.error;
+      _state = ViewState.error; 
     }
 
     notifyListeners();
