@@ -47,7 +47,7 @@
 flutter test 
 ```
 
-## วิธีการติดตั้ง (Setup)
+### วิธีการติดตั้ง (Setup)
 Clone Repository:
    ```bash
    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
