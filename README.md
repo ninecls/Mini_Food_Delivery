@@ -34,6 +34,18 @@
 - **Architecture:** MVVM
 - **Data Source:** Local JSON
 
+## Tests
+
+1. **searchRestaurants Validation:** สามารถกรองรายชื่อร้านอาหารได้ถูกต้องตามคำค้นหา
+2. **Clear Search Results:** เมื่อลบคำค้นหา จะต้องแสดงรายการร้านอาหารทั้งหมดกลับมาอย่างถูกต้อง
+3. **Case Insensitive Search:** ช่องค้นหาสามารถค้นหาได้ทั้งตัวอักษรพิมพ์เล็กและพิมพ์ใหญ่โดยผลลัพธ์ต้องได้เหมือนกัน (เช่น "pizza" และ "PIZZA")
+4. **Data Consistency:** ความถูกต้องของข้อมูลหลังจากการโหลดจากไฟล์ Local JSON
+
+### วิธีการรันการทดสอบ (How to run tests):
+เปิด Terminal:
+```bash
+flutter test
+
 ## วิธีการติดตั้ง (Setup)
 1. Clone Repository:
    ```bash
