@@ -7,7 +7,7 @@
 - **State Management:** รองรับสถานะ Loading, Success และ Error
 
 ## โครงสร้างแอป
-โดยใช้ **MVVM (Model-View-ViewModel)** ประกอบด้วยกันดังนี้:
+ใช้ **MVVM (Model-View-ViewModel)** ประกอบด้วยกันดังนี้:
 
 ### Models
 - `restaurant.dart`: ข้อมูลหลักของร้านอาหาร
