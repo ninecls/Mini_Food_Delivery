@@ -37,7 +37,9 @@ void main() {
       }
     });
 
-    test('ค้นหาไม่สนเรื่องอักษรตัวเล็กหรือตัวใหญ่', () {
+    test('ค้นหาไม่สนเรื่องอักษรตัวเล็กหรือตัวใหญ่', () async {
+      await Future.delayed(Duration(milliseconds: 100));
+      
       // ค้นหาด้วยตัวเล็กทั้งหมด
       viewModel.searchRestaurants("pizza");
       int resultCount = viewModel.restaurants.length;
