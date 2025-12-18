@@ -1,0 +1,152 @@
+[{
+        "id": 1,
+        "name": "Pizza Me Gusta",
+        "category": "Italian",
+        "hours": "11:00 - 22:00",
+        "menu": [
+            { "name": "Margherita Pizza", "price": 290 },
+            { "name": "Lasagna", "price": 320 }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "ครัวแม่สมร",
+        "category": "Thai",
+        "hours": "09:00 - 20:00",
+        "menu": [
+            { "name": "แกงเขียวหวานไก่", "price": 120 },
+            { "name": "ผัดไทยกุ้งสด", "price": 150 }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "K-Chicken Bomb",
+        "category": "Korean",
+        "hours": "11:30 - 23:00",
+        "menu": [
+            { "name": "ไก่ทอดซอสเกาหลี", "price": 189 },
+            { "name": "ต๊อกโบกีชีส", "price": 165 }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "The Morning Brew",
+        "category": "Cafe & Bakery",
+        "hours": "07:00 - 17:00",
+        "menu": [
+            { "name": "Croissant", "price": 85 },
+            { "name": "Dirty Coffee", "price": 110 }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "India Gate",
+        "category": "Indian",
+        "hours": "11:00 - 21:00",
+        "menu": [
+            { "name": "Chicken Tikka Masala", "price": 280 },
+            { "name": "Garlic Naan", "price": 60 }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Shabu Shabu Lab",
+        "category": "Japanese (Hotpot)",
+        "hours": "12:00 - 22:00",
+        "menu": [
+            { "name": "Buffet Standard", "price": 399 },
+            { "name": "Buffet Premium", "price": 699 }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Healthy Bowl",
+        "category": "Salad Bar",
+        "hours": "10:00 - 20:00",
+        "menu": [
+            { "name": "Quinoa Salad", "price": 210 },
+            { "name": "Acai Bowl", "price": 240 }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Taco Time",
+        "category": "Mexican",
+        "hours": "11:00 - 21:30",
+        "menu": [
+            { "name": "Beef Tacos", "price": 180 },
+            { "name": "Nachos Supreme", "price": 220 }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "หมูกระทะริมน้ำ",
+        "category": "Thai BBQ",
+        "hours": "16:00 - 23:00",
+        "menu": [
+            { "name": "ชุดหมูรวมเล็ก", "price": 250 },
+            { "name": "ชุดทะเลใหญ่", "price": 450 }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Dim Sum Express",
+        "category": "Chinese",
+        "hours": "08:00 - 15:00",
+        "menu": [
+            { "name": "ฮะเก๋ากุ้ง", "price": 55 },
+            { "name": "ซาลาเปาหมูแดง", "price": 45 }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "เจ๊อึ่ง ข้าวต้มรอบดึก",
+        "category": "Thai (Street Food)",
+        "hours": "17:00 - 02:00",
+        "menu": [
+            { "name": "หมูกรอบทอดน้ำปลา", "price": 120 },
+            { "name": "ผัดผักบุ้งไฟแดง", "price": 80 }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "เรือนไม้แกงใต้",
+        "category": "Thai (Southern)",
+        "hours": "08:00 - 16:00",
+        "menu": [
+            { "name": "คั่วกลิ้งหมูสับ", "price": 90 },
+            { "name": "แกงส้มปลากะพง", "price": 180 }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "ครัวส้มตำป้าศรี",
+        "category": "Thai (Isan)",
+        "hours": "10:30 - 19:30",
+        "menu": [
+            { "name": "ตำปูปลาร้า", "price": 50 },
+            { "name": "คอหมูย่าง", "price": 110 }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "ก๋วยเตี๋ยวเรือกรุงเก่า",
+        "category": "Thai (Noodles)",
+        "hours": "09:00 - 17:00",
+        "menu": [
+            { "name": "ก๋วยเตี๋ยวเรือเนื้อวากิว", "price": 145 },
+            { "name": "แคบหมูแก้ว", "price": 20 }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "ศาลาไทย สำรับเอก",
+        "category": "Thai (Authentic)",
+        "hours": "11:00 - 22:00",
+        "menu": [
+            { "name": "มัสมั่นขาแกะ", "price": 450 },
+            { "name": "ข้าวแช่ชาววัง", "price": 380 }
+        ]
+    }
+
+]
