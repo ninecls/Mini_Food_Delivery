@@ -1,16 +1,40 @@
-# flutter_application_1
+# Mini Food Delivery Browser
 
-A new Flutter project.
+## ฟีเจอร์ (Features)
+- **Restaurant List:** แสดงรายการร้านอาหารพร้อมประเภท และเวลาเปิด-ปิด
+- **Search Bar:** ค้นหาร้านอาหารได้
+- **Restaurant Detail:** แสดงประเภทและเวลาเปิด-ปิด และรายการเมนูอาหารพร้อมราคา
+- **State Management:** รองรับสถานะ Loading, Success และ Error
 
-## Getting Started
+## โครงสร้างแอป
+ใช้ **MVVM (Model-View-ViewModel-Main)** ประกอบด้วยกันดังนี้:
 
-This project is a starting point for a Flutter application.
+### Models
+- `restaurant.dart`: ข้อมูลหลักของร้านอาหาร
+- `menu_item.dart`: ข้อมูลรายการอาหาร
 
-A few resources to get you started if this is your first Flutter project:
+### Services
+- `restaurant_service.dart`: การดึงข้อมูลจาก Local JSON 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ViewModels
+- `restaurant_viewmodel.dart`:  Logic, สถานะการโหลดข้อมูล และการค้นหา
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Views
+- `restaurant_list_screen.dart`: หน้าหลักแสดงรายการทั้งหมดร้านอาหาร
+- `restaurant_detail_screen.dart`: หน้าจอแสดงรายละเอียดของร้านอาหาร
+- `loading_screen.dart`: หน้าจอรอโหลดข้อมูล
+
+### Widgets
+- `restaurant_card.dart`: UI สำหรับแสดงข้อมูลร้านแต่ละร้าน
+- `loading_widget.dart`: UI สำหรับแสดงสถานะการโหลด
+
+## Tech Stack
+- **Language:** Dart
+- **Framework:** Flutter
+- **Architecture:** MVVM
+- **Data Source:** Local JSON
+
+## วิธีการติดตั้ง (Setup)
+1. Clone Repository:
+   ```bash
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
